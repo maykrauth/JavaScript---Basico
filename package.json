@@ -1,0 +1,26 @@
+{
+  "name": "hola-mundo",
+  "version": "1.0.0",
+  "description": "Este es mi primer proyecto de JavaScript con Node en Open Bootcamp",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "saludar":"node hola-mundo.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maykrauth/JavaScript---Basico.git"
+  },
+  "keywords": [
+    "holamundo",
+    "first",
+    "project"
+  ],
+  "author": "krauth may",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maykrauth/JavaScript---Basico/issues"
+  },
+  "homepage": "https://github.com/maykrauth/JavaScript---Basico#readme"
+}
