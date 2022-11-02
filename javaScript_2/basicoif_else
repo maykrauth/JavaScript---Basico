@@ -1,0 +1,32 @@
+//If else +if else
+
+let nota = 3;
+
+// si la nota es igual a 5
+if (nota === 5) {
+    console.log("Obtuviste un sobresaliente");
+} else if(nota === 4) {
+    console.log("Buen trabajo");
+} else if(nota === 3) {
+    console.log("Bien");
+}else if(nota === 2) {
+    console.log("Desaprobado");
+} else if(nota === 1) {
+    console.log("No has estudidado nada");
+} else {
+    console.log("Error, introduce una nota emtre el 1 y el 5")
+}
+
+
+
+/* este codigo se vuelve in mantenible,tendriamos un monton de estruturas 
+    else{
+        if (nota ===4) {
+        
+        }   else{
+            if (nota ===3) {
+            
+            }
+        }
+    }
+para evitar esto usamos el else if()*/

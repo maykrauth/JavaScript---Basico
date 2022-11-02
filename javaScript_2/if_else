@@ -1,0 +1,27 @@
+//bifurcaciones if...else
+// banco
+let saldo = 100;
+let efectivo = 20;
+// si el efectivo es menor al saldo console.log
+if (efectivo < saldo){
+    console.log("Puedes sacar dinero")
+}
+
+if (efectivo < saldo) {
+    console.log("Puedes sacar dinero")
+} else{
+    console.log("saldo insuficiente")
+}
+
+let saldo_ = 100;
+let efectivo_ = 200;
+// si el efectivo es menor al saldo console.log, en estos momentos no se esta compliendo la condicion
+if (efectivo_ < saldo_){
+    console.log("Puedes sacar dinero")
+}
+if (efectivo_ < saldo_) {
+    console.log("Puedes sacar dinero")
+} else{
+    console.log("saldo insuficiente")
+}
+
